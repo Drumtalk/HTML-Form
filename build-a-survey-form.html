@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+      <h1 id="title">Survey Form</h1>
+      <p id="description">Thank you for taking the time to help us improve the platform</p>
+  </head>
+  <body>
+    <form id="survey-form">
+      <div>
+        <label for="name" class="check-label" id="name-label">Name</label>
+        <input class="text-width" id="name" type="text" required placeholder="Enter your name">
+        <label for="email" class="check-label" id="email-label">Email</label>
+        <input class="text-width" id="email" type="email" required placeholder="Enter your Email">
+        <label for="number" class="check-label" id="number-label">Age (optional)</label>
+        <input class="text-width" id="number" type="number" placeholder="Age" min="16" max="120">
+      </div>
+      <div>
+        <label for="dropdown" class="check-label" id="dropdown-label">Which option best describes your current role?</label>
+        <select class="text-width" id="dropdown">
+          <option>Student</option>
+          <option>Full Time Job</option>
+          <option>Full Time Learner</option>
+        </select>
+      </div>
+      <div>
+        <label for="radio" class="check-label" id="radio-label">Would you recommend freeCodeCamp to a friend?</label>
+        <input type="radio" name="browser" value="def" checked> Definitely<Br>
+      <input type="radio" name="browser" value="maybe"> Maybe<Br>
+      <input type="radio" name="browser" value="ns"> Not sure<Br>
+      </div>
+      <div>
+        <label for="check" class="check-label" id="checkbox-label">What would you like to see improved? (Check all that apply)</label>
+        <input type="checkbox" value="Back"> Back-end Projects<br>
+        <input type="checkbox" value="Front"> Front-end Projects<br>
+        <input type="checkbox" value="Data"> Data Visualization
+      </div>
+      <div>
+        <label for="comment" class="check-label" id="comment-label">Any comments or suggestions?</label>
+        <textarea id="comment" name="textarea" class="com" placeholder="Enter your comment here..."></textarea>
+      </div>
+      <div>
+        <input type="submit" id="submit" value="Submit">
+      </div>
+    </form>
+  </body>
+</html>

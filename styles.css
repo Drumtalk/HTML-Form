@@ -1,0 +1,54 @@
+.check-label {
+  display: block;
+  margin: 0.5rem 0;
+  padding-bottom: 2px
+}
+body {
+  background-color: darkblue;
+color: white;
+padding: 2em;
+font-family: Tahoma;
+font-size: 16px;
+}
+
+form {
+background-color: rgb(0, 0, 50);
+padding: 2em;
+width: 60vw;
+max-width: 500px;
+min-width: 300px;
+margin: 0 auto;
+
+}
+
+h1, p {
+  text-align: center;
+  margin: 1em auto;
+}
+
+div {
+  margin: 5px;
+  padding-top: 5px
+
+}
+
+.text-width {
+  width: 100%;
+  min-height: 2rem
+}
+
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  margin: 1em auto;
+  height: 3em;
+  font-size: 1.1rem;
+  background-color: green;
+  color: white;
+  min-width: 300px;
+}
+
+.com {
+  min-height: 4rem;
+  width: 100%
+}
